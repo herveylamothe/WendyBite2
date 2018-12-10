@@ -1,0 +1,79 @@
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.container {
+    background-color: rgb(59, 53, 53);
+    padding: 20px;
+
+}
+
+/* border-width
+border-style (required)
+border-color */
+.border {
+    border: 5px solid rgb(151, 134, 134);
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.header {
+    /* text-align: center; */
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+h1 {
+    font-style: italic;
+    color: azure;
+    margin: 0 auto;
+    /* display: inline-block; */
+    width: 200px;
+    /* text-align: center; */
+}
+
+.links {
+margin: 0 auto;
+width: 400px;
+text-align: center;
+}
+
+a {
+    color: rgb(118, 218, 118);
+}
+
+.active {
+    color: azure;
+}
+
+.content {
+    color: azure;
+    overflow: auto;
+    word-wrap: break-word;
+    border-top: 2px solid rgb(151, 134, 134);
+    border-bottom: 2px solid rgb(151, 134, 134);
+}
+
+img {
+    float: right;
+    padding: 10px;
+    border: 1px solid rgb(151, 134, 134);
+}
+
+p {
+    font-size: 25px;
+}
+
+span {
+    color: rgb(151, 134, 134);
+    font-weight: bold;
+}
+
+.weblinks {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
